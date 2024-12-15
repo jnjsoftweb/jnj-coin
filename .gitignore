@@ -1,0 +1,38 @@
+# modules
+node_modules/
+
+# binary
+*.exe
+
+# build
+cjs/*
+!.swcrc
+!tsconfig.json
+!package.json
+esm/*
+!.swcrc
+!tsconfig.json
+!package.json
+types/*
+
+# macos
+.DS_Store
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# users
+_*/
+*.bat
+*.sh
+
+docs/
+
+.vscode/
+yarn.lock
+package-lock.json
+
+.npmignore
+.prettierrc
